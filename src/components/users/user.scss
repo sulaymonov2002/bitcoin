@@ -1,0 +1,16 @@
+.user-wrap {
+  padding: 2rem;
+  width: 10%;
+  border-radius: 10px;
+  background-color: #202128;
+  color: #fff;
+
+  .btn {
+    transform: translate(-10px, -10px);
+    width: 10%;
+    padding: 1.2rem 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

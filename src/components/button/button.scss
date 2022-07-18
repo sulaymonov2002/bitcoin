@@ -1,0 +1,32 @@
+.btn {
+  padding: 0.7rem 3rem;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #dd2266;
+  border: 2px solid #dd2266;
+  transition: 0.2s linear;
+
+  &:hover {
+    background: #24252d;
+  }
+}
+
+.btn-outline {
+  padding: 0.7rem 3rem;
+  border-radius: 5px;
+  background: none;
+  color: #fff;
+  border: 2px solid #dd2266;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #ff005c;
+  transition: all 0.2s linear;
+
+  &:hover {
+    background-color: #dd2266;
+    color: #fff;
+  }
+}

@@ -1,0 +1,67 @@
+.navbar-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    width: 50%;
+
+    .navbar-logo {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    form {
+      padding: 1rem;
+      background-color: #1b1a2e;
+      width: 70%;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      color: #fff;
+      border-radius: 5px;
+
+      input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: #fff;
+
+        &::placeholder {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .navbar-right {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    .navbar-links {
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+
+      li {
+        list-style: none;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+    }
+
+    .buttons {
+      display: flex;
+      gap: 2rem;
+    }
+  }
+}

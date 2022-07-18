@@ -1,0 +1,32 @@
+.banner-section {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+
+  .banner-left {
+    width: 50%;
+    h1 {
+      color: #ff005c;
+      font-size: 4rem;
+    }
+    p {
+      color: #fff;
+      font-size: 1.7rem;
+      line-height: 2.5rem;
+    }
+
+    .banner-buttons {
+      display: flex;
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+  }
+
+  .banner-right {
+    width: 50%;
+
+    img {
+      width: 100%;
+    }
+  }
+}

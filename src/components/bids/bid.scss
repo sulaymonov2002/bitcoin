@@ -1,0 +1,29 @@
+.bid {
+  border-radius: 10px;
+  padding: 1.5rem;
+  background-color: #202128;
+  width: 50%;
+
+  img {
+    width: 100%;
+  }
+
+  .bid-title {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      line-height: 0.3rem;
+      color: #fff;
+    }
+
+    img {
+      width: 50%;
+    }
+  }
+}
